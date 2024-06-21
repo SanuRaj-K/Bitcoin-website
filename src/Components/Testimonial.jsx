@@ -3,7 +3,7 @@ import avatar from "../Assets/Images/rounded 1.svg";
 function Testimonial() {
   return (
     <div>
-      <div className="  py-4 w-[330px]  bg-[#1F54644D] text-[#F1F1F1] rounded-md">
+      <div className="  py-4 w-[330px]  bg-[#0F2B34] text-[#F1F1F1] rounded-md">
         <div className=" flex flex-col items-center justify-center pt-3">
           <img src={avatar} alt="avatar" />
           <div className=" mt-3 flex flex-col items-center text-[#F1F1F1]">

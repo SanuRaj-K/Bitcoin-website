@@ -1,4 +1,5 @@
 import "./App.css";
+import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import CardSection from "./Pages/CardSection";
 import FAQ from "./Pages/FAQ";
@@ -12,11 +13,13 @@ function App() {
         <Header />
         <Home />
       </div>
-      <div className=" bg-[#165d774d]   px-[80px]   w-full">
+      <div className=" bg-[#091C23]   px-[80px]   w-full">
         <CardSection />
         <TestimonialSection />
-        <FAQ/>
+        <FAQ />
+        <Footer />
       </div>
+      
     </div>
   );
 }
