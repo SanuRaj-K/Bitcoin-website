@@ -25,8 +25,8 @@ function FAQ() {
             <>
               <div key={index} onClick={() => toggle(index)}>
                 <div className=" flex mb-8 cursor-pointer ml-6  items-center">
-                  <img src={show === index ? Plus : Minus} alt="plus" />
-                  <span className=" ml-10 text-[22px] mt-4 font-medium">
+                  <img src={show === index ? Minus : Plus} alt="plus" />
+                  <span className=" ml-10 sm:text-[22px] text-[15px] mt-4 font-medium">
                     What is your favorite template from BRIX Templates?
                   </span>
                 </div>
