@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "../Components/Card";
 
-function CardSection() {
+function  CardSection() {
   const arr = [1, 2, 3];
   return (
     <div>
@@ -16,7 +16,7 @@ function CardSection() {
             purus .
           </p>
         </div>
-        <div className=" flex justify-around">
+        <div className=" md:flex justify-around sm:grid sm:grid-cols-1 md:grid-cols-2 ">
           {arr.map((item) => (
             <div key={item} className=" ">
               <Card />

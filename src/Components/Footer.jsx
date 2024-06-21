@@ -18,7 +18,7 @@ function Footer() {
   ];
   return (
     <div>
-      <div className=" flex justify-between  text-[#D7F5FF]">
+      <div className=" flex  flex-col  md:flex-row md:justify-between       text-[#D7F5FF]">
         <div>
           <div className="  flex flex-col justify-between  h-full">
             <div className="">
@@ -34,7 +34,7 @@ function Footer() {
                 <div>Lorem Ipsum, jhdjnfnj Htehiuijnerv</div>
               </div>
             </div>
-            <div className=" flex   mt-auto      ">
+            <div className=" flex py-4 sm:py-0   mt-auto      ">
               <img src={facebook} alt="" />
               <img className=" mx-3 " src={Insta} alt="" />
               <img src={Twitter} alt="" />
@@ -90,18 +90,17 @@ function Footer() {
         </div>
       </div>
       <div className=" mt-7">
-      <hr />
+        <hr />
       </div>
-      
-      <div className=" flex justify-between items-center py-7 text-[#D7F5FF]">
-        <div className=" flex ">
+      <div className=" flex  md:justify-between flex-col md:flex-row  items-center py-7 text-[#D7F5FF]">
+        <div className=" flex mb-4 sm:mb-0 ">
           <img className=" mr-2" src={Globe} alt="globe" />
           <span>Cestina</span>
-          <img  className=" ml-4" src={DownArrow} alt="arrow" />
+          <img className=" ml-4" src={DownArrow} alt="arrow" />
         </div>
         <div>
           <ul className=" flex justify-between">
-            <li >Privacy Policy</li>
+            <li>Privacy Policy</li>
             <li className=" mx-4">Notice at Collection</li>
             <li className=" mr-4">Terms</li>
             <li>Copyright © 2023 Atlassian</li>
