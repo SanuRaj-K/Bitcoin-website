@@ -8,7 +8,7 @@ import TestimonialSection from "./Pages/TestimonialSection";
 
 function App() {
   return (
-    <div className=" monomaniac-one-regular ">
+    <div className=" monomaniac-one-regular max-w-screen-2xl mx-auto ">
       <div className="App bg-spotlight sm:px-[80px] px-[40px]    h-screen bg-cover  bg-no-repeat w-full">
         <Header />
         <Home />
