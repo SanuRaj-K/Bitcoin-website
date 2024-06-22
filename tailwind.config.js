@@ -6,7 +6,7 @@ module.exports = {
       backgroundImage: {
         spotlight: "url('/src/Assets/Images/bitcoin-abstract 2.svg')",
         cardImage:"url('/src/Assets/Images/Card image.svg')",
-        "gradient-custom":
+        "gradient-custom":         
           "linear-gradient(180deg, rgba(9, 28, 35, 0.3) 0%, rgba(8, 64, 82, 0.21) 52.28%, rgba(9, 28, 35, 0.3) 100%)",
       },
     },

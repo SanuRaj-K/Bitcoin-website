@@ -11,10 +11,10 @@ function FAQ() {
     <div>
       <div className=" bg-[#304046] mb-20 pb-12  text-white rounded-md">
         <div className=" flex flex-col mx-auto  text-center max-w-[900px]">
-          <span className=" text-[40px] font-semibold">
+          <span className=" sm:text-[40px] text-[30px] mt-4 font-semibold">
             Most Trusted Cryptocurrency Platform
           </span>
-          <p className=" max-w-[500px] mx-auto text-[20px] px-4">
+          <p className=" max-w-[500px] mx-auto sm:text-[20px] text-[16px] px-4">
             Nec faucibus ut mauris iaculis tristique dolor aliquam. Euismod arcu
             arcu aliquet laoreet blandit. Nam velit euismod egestas in. Sed
             purus .
@@ -31,7 +31,7 @@ function FAQ() {
                   </span>
                 </div>
                 <div
-                  className={`max-w-[850px] py-5  px-3 ${
+                  className={`max-w-[850px] py-2  px-3 ${
                     show === index ? "block" : "hidden"
                   }`}
                 >

@@ -16,7 +16,7 @@ function  CardSection() {
             purus .
           </p>
         </div>
-        <div className=" md:flex justify-around sm:grid sm:grid-cols-1 md:grid-cols-2 ">
+        <div className=" flex items-center flex-col md:flex-row justify-center w-full md:gap-5 sm:grid-cols-2  flex-wrap lg:justify-around  ">
           {arr.map((item) => (
             <div key={item} className=" ">
               <Card />

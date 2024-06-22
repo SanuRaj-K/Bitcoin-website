@@ -16,7 +16,7 @@ function Header() {
     <div>
       <header className="  text-white ">
         <div className=" pt-4">
-          <div className=" flex justify-between   ">
+          <div className=" flex justify-between items-center   ">
             <div className=" cursor-pointer flex items-center">
               <img src={Logo} width={40} height={40} alt="logo" />
               <span className=" text-[32px] font-semibold ml-2">BitNow</span>
